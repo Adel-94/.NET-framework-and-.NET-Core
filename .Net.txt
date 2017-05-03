@@ -1,0 +1,25 @@
+.NET framework dediyimiz desktop,web ve mobil application hazirlamaq ucun istifade olunan bir proqramdir.
+Proqramlasma dili deyil.Sadece bir platformadir.Microsoft terefinden Javaya reqib olaraq hazirlanmisdir.
+.Net framework olmazsa,ASP.Net sehifeleri de olaz demekdir.
+Esasen .Net framework-un SDK(Software development kit) versiyasi istifade olunur ve daha cox tovsiye olunur.Ozunde debuglar,SQL Serverin versiyasini ve Quick strat tutorials 
+cemlesdirir.
+
+
+.Net framework- de feqli dillerde yazilmis proqramlar MSIL adlandirilan  ortak bir dile cevrilir.Proqrami hansi dilde yazmagimizdan asili olmayaraq  hamisi eyni koda cevrilir.
+Bu kodlar ise isledildiyi anda JIT istifade olunaraq CLR diline,yeni masin diline cevrilir.Artiq bundan sonra proqram ,. NET framework olan her sistemde calisir.
+.NET Core adi altinda .NET framework-un bir qismi edit-lenerek open source olaraq istifadeye verildi.
+
+
+En onemli ustunlukleri ve ferqlerine mnezer salaq.
+
+1.En onemli ferqliliyi Cross - platform olmasi  ve bunu  Microsoft terefinden desteklenmesidir.Yeni artiq Windows-dan asili halda olmayacaq ve diger emeliyyat sistemlerinde de isleyecekdir.
+2.Modulyarliq.Modulyarliq ehtiyacina gore NuGet paketleri uzerinden istifadeye verilmesi.
+3.OPen Source olmasi.Microsoft onun daha tez adapte oluna bilmesi meqsedile open source (aciq qaynaq ) olaraq istifadeye verdi.Bunun sayesinde de artiq her kes github uzerinden 
+kodlara goz atib ,deyise,yenilikler qata biler.
+4..Net Core -un islemesi ucun parelelinde CoreCLR deye bir runtime modeli yaratdi..NET framework-daki CLR(Common Language Runtime) modeline benzer  bir sekildedir.
+Bu da github uzerinden open soruce olaraq teqdim olundu.
+5.Visual studio-dan asililiq artiq olmayacaq.Diger text editor-larda da ,Sublime,NotePad kimi islemek mumkun olacaqdir.
+6.HTML tag-lerinden istifade olunmasi.Bundan evvel helper-lerden istifade olunurdu.
+
+
+.NET framework-da olub Core-da olmayan bezi ozelliklere  ise WPF,Windows Forms,WF,WCF misla gostermek olar. 
